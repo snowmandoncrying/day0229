@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>flexbox</title>
+    <link href="../css/style.css" rel="stylesheet"> 
+</head>
+<body>
+    <div>1번
+        <div class="abs">ㄱ</div>
+    </div>
+    <div>2번</div>
+    <div>3번</div>
+    <div>4번</div>
+    
+</body>
+</html>
+
+div{
+    border: 2px solid greenyellow;
+    background-color: skyblue;
+    width: 100px; height: 100px;
+    position: relative;
+    top: 50px; left: 50px;
+}
+.abs{
+    position: absolute;
+    top: 100px; left: 100px;
+}
