@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>선택자</title>
+    <link href="../css/style.css" rel="stylesheet"> 
+</head>
+<body>
+    <h1>결합선택자</h1>
+    <div class="java">
+        <p>java클래스 p태그1번</p>
+        <p>java클래스 p태그2번</p>
+        <p>java클래스 p태그3번</p>
+    </div>
+    
+    <div class="script">
+            <p>script클래스 p태그1번</p>
+            <p>script클래스 p태그2번</p>
+        <div class="javascript">
+            <p>javascript클래스 p태그 1번</p>
+            <p>javascript클래스 p태그 2번</p>
+        </div>
+        <p>아무내용</p>
+    </div>
+    <p>아무 내용이나 적어<p>
+</body>
+</html>
+
+div p{
+    color: blue;
+}
+.java>p{
+    border: 2px solid green;
+}
+.script~p{
+    color: violet;
+}
+.javascript+p{
+    color:red;
+}
+.script>p {
+    border: 1px dashed blue;
+    background-color: yellow;
+}
