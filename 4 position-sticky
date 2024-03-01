@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>flexbox</title>
+    <link href="../css/style.css" rel="stylesheet"> 
+</head>
+<body>
+    <div>
+        첫번째<br />첫번째<br />첫번째<br />첫번째<br />첫번째<br />
+        첫번째<br />첫번째<br />첫번째<br />첫번째<br />첫번째<br />
+        첫번째<br />첫번째<br />첫번째<br />첫번째<br />첫번째<br />
+        첫번째<br />첫번째<br />첫번째<br />첫번째<br />첫번째<br />
+        첫번째<br />첫번째<br />첫번째<br />첫번째<br />첫번째<br />
+        첫번째<br />첫번째<br />첫번째<br />첫번째<br />첫번째<br />
+        첫번째<br />첫번째<br />첫번째<br />첫번째<br />첫번째<br />
+    </div>
+    <div class="position"></div>
+    <div>
+        두번째<br />두번째<br />두번째<br />두번째<br />두번째<br />
+        두번째<br />두번째<br />두번째<br />두번째<br />두번째<br />
+        두번째<br />두번째<br />두번째<br />두번째<br />두번째<br />
+        두번째<br />두번째<br />두번째<br />두번째<br />두번째<br />
+        두번째<br />두번째<br />두번째<br />두번째<br />두번째<br />
+        두번째<br />두번째<br />두번째<br />두번째<br />두번째<br />
+        두번째<br />두번째<br />두번째<br />두번째<br />두번째<br /> 
+    </div>
+</body>
+</html>
+
+.position{
+    background-color: pink;
+    width: 300px; height: 300px;
+    position: sticky;
+    left: 100px; bottom: 0px;
+}
