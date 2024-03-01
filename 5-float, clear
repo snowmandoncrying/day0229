@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>flexbox</title>
+    <link href="../css/style.css" rel="stylesheet"> 
+</head>
+<body>
+    <div id="a">1번</div>
+    <div id="b">2번</div>
+    <p>문단1번</p>
+    <p>문단2번</p>
+    <p>문단3번</p>
+    <p>문단4번</p>
+</body>
+</html>
+
+#b{
+    border: 2px solid greenyellow;
+    background-color: skyblue;
+    width: 100px; height: 100px;
+    top: 50px; left: 50px;
+    float: left;
+}
+#a{ 
+    border: 2px solid greenyellow;
+    background-color: skyblue;
+    width: 100px; height: 200px;
+    float: right; 
+}
+p{
+    clear: both;
+}
