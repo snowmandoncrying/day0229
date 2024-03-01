@@ -35,3 +35,9 @@
     position: sticky;
     left: 100px; bottom: 0px;
 }
+.position{
+    background-color: pink;
+    width: 300px; height: 300px;
+    position: fixed;
+    left: 50px; top: 0px;
+}
